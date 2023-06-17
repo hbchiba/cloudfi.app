@@ -1,5 +1,26 @@
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-11014300431"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'AW-11014300431');
+    </script>
+    <!-- Event snippet for Sign-up (1) conversion page -->
+    <script>
+      gtag('event', 'conversion', {
+        send_to: 'AW-11014300431/0UW5CKuswa0YEI_Gg4Qp',
+      });
+    </script>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>CloudFi - The Premier Platform for Crypto Growth</title>
@@ -96,7 +117,11 @@
               >Register</a
             >
           </div>
-          <button id="hamb-btn" class="hamburger--squeeze">
+          <button
+            id="hamb-btn"
+            onclick="window.location.href='https://cloudfi.app/register/?ref=cKgFRUcEocfAnyU116fg';"
+            class="hamburger--squeeze"
+          >
             <div class="hamburger-inner"></div>
           </button>
         </div>
